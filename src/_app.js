@@ -1,12 +1,10 @@
 import React from 'react'
+import Homepage from './pages';
 function HomeApp() {
   return (
     <div>
       {/* This is main react page where parent component rendered */}
-      <h1>This is parent pages</h1>
-      <div>
-
-      </div>
+      <Homepage/>
     </div>
   )
 }

@@ -1,9 +1,10 @@
 import React from 'react'
+import Header from '../components/common/header'
 
 const Homepage = () => {
   return (
-    <div>
-        This is main page of project
+    <div className='homepage'>
+        <Header />
     </div>
   )
 }
