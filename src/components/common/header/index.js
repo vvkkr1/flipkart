@@ -38,10 +38,44 @@ const Header = () => {
               </div>
 
 {/* user  */}
-              <div className='user'>
-                  <div>Become a Seller</div>
-                  <div>Sign in</div>
-                  <div>Cart</div>
+              <div className='user-details'>
+                  
+                  <div className='user-seller'>
+                    <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg'
+                         alt='user-seller'
+                         className='seller-logo'
+                        />
+                    <li>
+                      <a style={{textDecoration:"none",color:"#000",fontSize:"16px",lineHeight:"24px"}} href="index.html">Become a Seller</a>
+                    </li>
+                  </div>
+                  
+                  <div className='user-sign-in'>
+                    <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-815786.svg' 
+                         alt='user-logo' 
+                         className='user-logo'
+                        />
+                    <li>
+                      <a style={{textDecoration:"none",color:"#000",fontSize:"16px",lineHeight:"24px"}} href="index.html">Sign in</a>
+                    </li>
+                  </div>
+
+                  <div className='cart-user'>
+                    <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg'
+                         className='cart-logo'
+                         alt='cart'
+                         />
+                    <li>
+                      <a style={{textDecoration:"none",color:"#000",fontSize:"16px",lineHeight:"24px"}} href="index.html">Cart</a>
+                    </li>
+                  </div>
+
+                  <div className='dropdown-container'>
+                    <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg'
+                         className='dropdown'
+                         alt='dropdown'
+                         />
+                  </div>
               </div>
 
 
