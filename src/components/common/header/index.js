@@ -30,15 +30,25 @@ const Header = () => {
 
           </div>
   {/* search        */}
-          <div className='product-search'>
-                <img src={flipkart} 
-                     alt='logo' 
-                     className='search-icon'
-                  />
-                <input placeholder='Search for Products, Brands More' 
+          <div className='product-search-wrap'>
+              
+              <div className='product-search'>
+                <div className='search-icon-container'>
+                  <img src={flipkart} 
+                       alt='logo' 
+                       className='search-icon'
+                    />
+                </div>
+                
+                <div className='product-search-input-container'>
+                  <input placeholder='Search for Products, Brands More' 
                        className='product-search-input'
-                  />
+                    />
+                </div>    
+              </div>
+
           </div>
+          
 
         </div>
 
