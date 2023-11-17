@@ -90,6 +90,7 @@
 
 /* right header  */
 /* user  */
+/* parent  */
 .user-details{
     display: flex;
     align-items: center;
@@ -98,26 +99,33 @@
 }
 
 
-
+/* child div */
 .user-sign-in{
     display: flex;
     align-items: center;
     border: 1px solid transparent;
     box-sizing: border-box;
-    /* padding: 0px 20px; */
-    padding: 8px;
+    padding: 8px 20px;
+    /* padding: 8px; */
     cursor: pointer;
 }
+/* child sibling div  */
 .cart-user{
     display: flex;
-    padding: 0px 20px;
+    align-items: center;
+    padding: 8px 20px;
     cursor: pointer;
 }
+/* child sibling div  */
 .user-seller{
     display: flex;
-    padding: 0px 20px;
+    align-items: center;
+    padding: 8px 20px;
     cursor: pointer;
 }
+/* child sibling div  */
 .dropdown-container{
+    display: flex;
+    align-items: center;
     padding: 0px 20px;
 }

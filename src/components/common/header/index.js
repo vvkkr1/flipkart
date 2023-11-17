@@ -80,7 +80,7 @@ const Header = () => {
                   <div className='cart-user'>
                       <div className='cart-logo-container'>
                         <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg'
-                             className='cart-logo'
+                             className='cart-logo absolute-center'
                              alt='cart'
                              style={{marginRight:"8px"}}
                            />
@@ -95,7 +95,7 @@ const Header = () => {
                       <div className='seller-logo-container'>
                       <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg'
                          alt='user-seller'
-                         className='seller-logo'
+                         className='seller-logo absolute-center'
                          style={{marginRight:"8px"}}
                         />
                       </div>
@@ -109,6 +109,7 @@ const Header = () => {
                     <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg'
                          className='dropdown'
                          alt='dropdown'
+                         style={{width:"24px",height:"24px"}}
                          />
                   </div>
 
