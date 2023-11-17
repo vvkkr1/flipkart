@@ -97,20 +97,23 @@
     flex: 1;
 }
 
-.user-details li{list-style: none;}
 
 
-.user-seller{
-    display: flex;
-    padding: 0px 20px;
-    cursor: pointer;
-}
 .user-sign-in{
     display: flex;
-    padding: 0px 20px;
+    align-items: center;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    /* padding: 0px 20px; */
+    padding: 8px;
     cursor: pointer;
 }
 .cart-user{
+    display: flex;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+.user-seller{
     display: flex;
     padding: 0px 20px;
     cursor: pointer;
