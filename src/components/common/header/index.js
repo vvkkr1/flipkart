@@ -6,10 +6,12 @@ const Header = () => {
   return (
     <div className='header'>
       
-      <div className='header-container max-width'>
+     <div className='header-container max-width'>
 
+        <div className='header-left'>
   {/* icon          */}
           <div className='logo-title-container'>
+
               <div className='logo-container'>
                  <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/flipkart-095e08.svg'
                    className='logo-image'
@@ -25,20 +27,23 @@ const Header = () => {
                            alt='small logo'
                         />
               </div>
+
+          </div>
+  {/* search        */}
+          <div className='product-search'>
+                <img src={flipkart} 
+                     alt='logo' 
+                     className='search-icon'
+                  />
+                <input placeholder='Search for Products, Brands More' 
+                       className='product-search-input'
+                  />
           </div>
 
-          <div className='header-right'>
+        </div>
 
- {/* search               */}
-              <div className='product-search'>
-                  <img src={flipkart} alt='logo' className='search-icon'/>
-                    <input placeholder='Search for Products, Brands More' 
-                            className='product-search-input'
-                            />
-              </div>
-
-{/* user  */}
-              <div className='user-details'>
+  {/* user          */}
+        <div className='user-details'>
                   
                   <div className='user-seller'>
                     <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg'
@@ -76,10 +81,9 @@ const Header = () => {
                          alt='dropdown'
                          />
                   </div>
-              </div>
 
+        </div>
 
-          </div>
       </div>
 
     </div>
