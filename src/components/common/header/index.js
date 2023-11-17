@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className='header'>
       
-     <div className='header-container max-width'>
+    <div className='header-container max-width'>
 
         <div className='header-left'>
   {/* icon          */}
@@ -49,13 +49,11 @@ const Header = () => {
 
           </div>
           
-
         </div>
 
-  {/* user          */}
-        <div className='user-details'>
-                  
-                  <div className='user-sign-in'>
+  {/* user    header-right      */}
+        <div className='user-details'>   
+            <div className='user-sign-in'>
                       <div className="user-logo-container">
                         <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-52e0dc.svg' 
                            alt='user-logo' 
@@ -75,9 +73,9 @@ const Header = () => {
                            style={{marginLeft:"8px",height:"12px",width:"12px"}} 
                            />
                       </div>
-                  </div>  
+            </div>  
 
-                  <div className='cart-user'>
+            <div className='cart-user'>
                       <div className='cart-logo-container'>
                         <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg'
                              className='cart-logo absolute-center'
@@ -89,9 +87,9 @@ const Header = () => {
                       <div className='cart-title'>
                          <a style={{textDecoration:"none",color:"#000",fontSize:"16px",lineHeight:"24px"}} href="index.html">Cart</a>
                       </div>
-                  </div>
-
-                  <div className='user-seller'>
+            </div>
+             
+            <div className='user-seller'>
                       <div className='seller-logo-container'>
                       <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg'
                          alt='user-seller'
@@ -103,19 +101,18 @@ const Header = () => {
                       <div className='seller-title'>
                        <a style={{textDecoration:"none",color:"#000",fontSize:"16px",lineHeight:"24px"}} href="index.html">Become a Seller</a>
                       </div>  
-                  </div>
+            </div>
                   
-                  <div className='dropdown-container'>
+            <div className='dropdown-container'>
                     <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg'
                          className='dropdown'
                          alt='dropdown'
                          style={{width:"24px",height:"24px"}}
                          />
-                  </div>
-
+            </div>
         </div>
 
-      </div>
+    </div>
 
     </div>
   )
