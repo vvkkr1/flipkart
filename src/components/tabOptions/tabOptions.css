@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   background: bisque;
   margin: 10px 40px;
   padding: 20px 10px;
