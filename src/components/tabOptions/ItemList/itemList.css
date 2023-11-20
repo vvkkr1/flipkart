@@ -1,0 +1,9 @@
+/* .item-list-wrap{
+
+} */
+.item-list-title{
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+}
