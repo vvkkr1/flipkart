@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans:opsz@6..12&display=swap');
 @import "./styles/commonStyles.css";
 @import "./styles/variables.css";
-@import "~@flaticon/flaticon-uicons/css/all/all";
+/* @import "~@flaticon/flaticon-uicons/css/all/all"; */
 
 body {
   margin: 0;
@@ -12,6 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+  background-color: #f5f5f5;
 }
 
 code {

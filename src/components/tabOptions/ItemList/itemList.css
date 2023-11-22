@@ -2,8 +2,16 @@
 
 } */
 .item-list-title{
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+}
+
+.item-list-container{
+    padding-left: 24px;
+    padding: 16px;
+    min-width: 90px;
+    cursor: pointer;
+    position: relative;
 }
