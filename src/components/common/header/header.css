@@ -64,7 +64,7 @@
     
 }
 
-/* div 1 */
+/** div 1 */
 .search-icon-container{
     border-radius: 2px;
     cursor: pointer;
@@ -72,7 +72,7 @@
     background: transparent;
 }
 
-/* div 2 */
+/** div 2 */
 .product-search-input-container{
     position: relative;
     display: inline-block;
@@ -94,7 +94,8 @@
 
 /* right header  */
 /* user  */
-/* parent  */
+
+/** parent  */
 .user-details{
     display: flex;
     align-items: center;
@@ -103,41 +104,60 @@
 }
 
 
-/* child div */
+/** child div */
 .user-sign-in{
     display: flex;
     align-items: center;
     /* border: 1px solid black; */
     box-sizing: border-box;
     margin: 0px auto;
-    padding: 8px 20px;
+    padding: 8px;
     cursor: pointer;
+
+    &:hover{
+        background:#2a55e5;
+        border-radius: 8px;
+        color: #f0f5ff;
+    }
 }
-.user-sign-in:hover{
-    background: #2a55e5;
-    border-color: #2a55e5;
-    border-radius: 8px;
-    padding: 8px 20px;
+
+.user-sign-in .user-log-in-title .title{
+    &:hover{
+        color: #fff;
+        text-decoration: none;
+    }
 }
-.caret-icon:hover{
+.user-sign-in .user-logo-container .user-logo{
+    &:hover{
+        color: #fff;
+    }
+}
+
+
+
+ .caret-icon:hover{
     transform: rotate(180deg);
     transition: transform .3s ease-in-out;
+    /* color: #fff; */
 }
-/* child sibling div  */
+
+/** child sibling div  */
 .cart-user{
     display: flex;
     align-items: center;
     padding: 8px 20px;
     cursor: pointer;
 }
-/* child sibling div  */
+
+/** child sibling div  */
 .user-seller{
     display: flex;
     align-items: center;
     padding: 8px 20px;
     cursor: pointer;
 }
-/* child sibling div  */
+
+/** child sibling div  */
 .dropdown-container{
     display: flex;
     align-items: center;
