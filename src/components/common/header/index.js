@@ -51,8 +51,9 @@ const Header = () => {
         </div>
 
         {/* user header-right*/}
-        <div className='user-details'>   
-            <div className='user-sign-in'>
+        <div className='user-details'> 
+            <div className='user-sign-in-wrap'>
+              <div className='user-sign-in'>
                 <div className="user-logo-container">
                       <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-52e0dc.svg' 
                            alt='user-logo' 
@@ -72,7 +73,38 @@ const Header = () => {
                                style = {{marginLeft:"8px",height:"12px",width:"12px"}} 
                           />
                 {/* </div> */}
-            </div>  
+              </div>
+              <ul className='user-sign-in-list'>
+                <a href="index.html">
+                  <span>New customer?</span>
+                  <span>Sign Up</span>
+                </a>
+
+                <a href="index.html">
+                  <li>My Profile</li>
+                </a>
+
+                <a href="index.html">
+                  <li>Flipkart Plus Zone</li>
+                </a>
+
+                <a href="index.html">
+                  <li>Orders</li>
+                </a>
+
+                <a href="index.html">
+                  <li>Wishlist</li>
+                </a>
+
+                <a href="index.html">
+                  <li>Rewards</li>
+                </a>
+
+                <a href="index.html">
+                  <li>Gift Cards</li>
+                </a>
+              </ul> 
+            </div>   
 
             <div className='cart-user'>
                       <div className='cart-logo-container'>

@@ -90,8 +90,6 @@
 }
 
 
-
-
 /* right header  */
 /* user  */
 
@@ -101,6 +99,10 @@
     align-items: center;
     /* justify-content: space-evenly; */
     flex: 1;
+}
+
+.user-sign-in-wrap{
+    position: relative;
 }
 
 
@@ -119,6 +121,24 @@
         border-radius: 8px;
         color: #f0f5ff;
     }
+}
+
+.user-sign-in-list{
+    width: 280px;
+    position: absolute;
+    top: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    min-width: 100px;
+    width: 200px;
+    box-shadow: 0 4px 16px 0 rgb(0 0 0/20%);
+    z-index: 100;
+    display: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .user-sign-in .user-log-in-title .title{
