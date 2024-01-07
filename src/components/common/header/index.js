@@ -6,11 +6,9 @@ const Header = () => {
   return (
     <div className='header'> 
       <div className='header-container max-width'>
-
         <div className='header-left'>
           {/* icon */}
           <div className='logo-title-container'>
-
               <div className='logo-container'>
                  <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/flipkart-095e08.svg'
                    className='logo-image'
@@ -26,12 +24,10 @@ const Header = () => {
                            alt='small logo'
                         />
               </div>
-
           </div>
 
           {/* search */}
           <div className='product-search-wrap'>
-              
               <div className='product-search'>
                 <div className='search-icon-container'>
                   <img src={flipkart} 
@@ -46,7 +42,6 @@ const Header = () => {
                     />
                 </div>    
               </div>
-
           </div>
         </div>
 
@@ -107,45 +102,43 @@ const Header = () => {
             </div>   
 
             <div className='cart-user'>
-                      <div className='cart-logo-container'>
-                        <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg'
-                             className='cart-logo absolute-center'
-                             alt='cart'
-                             style={{marginRight:"8px"}}
-                           />
-                      </div>
+                <div className='cart-logo-container'>
+                    <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg'
+                         className='cart-logo absolute-center'
+                         alt='cart'
+                         style={{marginRight:"8px"}}
+                    />
+                </div>
                     
-                      <div className='cart-title'>
+                <div className='cart-title'>
                          <a style={{textDecoration:"none",color:"#000",fontSize:"16px",lineHeight:"24px"}} href="index.html">Cart</a>
-                      </div>
+                </div>
             </div>
              
             <div className='user-seller'>
-                      <div className='seller-logo-container'>
-                      <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg'
-                         alt='user-seller'
-                         className='seller-logo absolute-center'
-                         style={{marginRight:"8px"}}
-                        />
-                      </div>
+                <div className='seller-logo-container'>
+                   <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg'
+                        alt='user-seller'
+                        className='seller-logo absolute-center'
+                        style={{marginRight:"8px"}}
+                    />
+                </div>
                     
-                      <div className='seller-title'>
+                <div className='seller-title'>
                        <a style={{textDecoration:"none",color:"#000",fontSize:"16px",lineHeight:"24px"}} href="index.html">Become a Seller</a>
-                      </div>  
+                </div>  
             </div>
                   
             <div className='dropdown-container'>
-                    <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg'
-                         className='dropdown'
-                         alt='dropdown'
-                         style={{width:"24px",height:"24px"}}
-                         />
+                <img src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg'
+                     className='dropdown'
+                     alt='dropdown'
+                     style={{width:"24px",height:"24px"}}
+                />
             </div>
         </div>
-
       </div>
     </div>
   )
 }
-
 export default Header
