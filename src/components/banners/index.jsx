@@ -28,14 +28,28 @@ const responsive = {
 
 const Banner = () => {
     return(
-        <Carousel responsive={responsive}>
-            {/* <h2>hello</h2> */}
-            {bannerData.map((item)=>{
+      <div className="carousel-wrap">
+        <Carousel 
+            responsive={responsive}
+            containerClass="carousel-container"
+            dotListClass="custom-dot-list-style"
+            itemClass="carousel-item-padding-40-px"
+            swipeable={false}
+            draggable={false}
+            // showDots={true}
+            infinite={true}
+            autoPlay={true}
+            autoPlaySpeed= {4000}
+            keyBoardControl={true}
+            slidesToSlide={1}
+        >
+              {bannerData.map((item)=>{
                 return(
                     <img  className = "slide-img" src={item.url} alt="img"/>
                 )
-            })}
+                })}
         </Carousel>
+      </div>
     )
 
 }
