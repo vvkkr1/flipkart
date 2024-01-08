@@ -18,7 +18,7 @@
 }
 
 /* left header  */
-.header-left{
+.left-section{
    display: flex;
    flex:2;
 }
@@ -118,11 +118,13 @@
     margin: 0px auto;
     padding: 8px;
     cursor: pointer;
+    position: relative;
 
     &:hover{
         background:#2a55e5;
         border-radius: 8px;
         color: #f0f5ff;
+
     }
 }
 
@@ -153,7 +155,8 @@
 
 .user-sign-in .user-logo-container .user-logo{
     &:hover{
-        color: #fff;
+        background: #fff;
+        color: #fff !important;
     }
 }
 
@@ -161,7 +164,6 @@
 .caret-icon:hover{
     transform: rotate(180deg);
     transition: transform .3s ease-in-out;
-    /* color: #fff; */
 }
 
 /** child sibling div  */

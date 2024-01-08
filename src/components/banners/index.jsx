@@ -42,6 +42,7 @@ const Banner = () => {
             autoPlaySpeed= {4000}
             keyBoardControl={true}
             slidesToSlide={1}
+            // customLeftArrow={}
         >
               {bannerData.map((item)=>{
                 return(
